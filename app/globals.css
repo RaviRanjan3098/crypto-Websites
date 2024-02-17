@@ -1,0 +1,84 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.sty{
+ background: rgba(0,0,0,.4);
+ border: 1px solid #110e14;
+ border-radius: 12px;
+}
+
+.btn{
+  background: linear-gradient(101.81deg,
+   rgb(240, 135, 255) -4.52%,
+    rgb(110, 31, 206) 54.5%,
+     rgba(110, 31, 206, 0.2) 101.41%);
+}
+.slidebtn{
+  background-image: linear-gradient(90deg,#14f195,#80ecff 40.1%,#64a8f2 82.29%,#64a8f2);
+}
+
+.millionbtn{
+  background: linear-gradient(101.11deg,#f087ff 14.47%,#6e1fce 39.43%,rgba(110,31,206,.1) 76.77%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text
+}
+.millionbtn1{
+  background: linear-gradient(100.93deg,#1fcff1 15.61%,#234cb6 41.38%,rgba(35,76,182,.1) 79.94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.dollarbtn{
+  background: linear-gradient(97.65deg,#19fb9b 11.36%,#199890 54.3%,#005f59 100.78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.footer_section{
+  background-image: radial-gradient(farthest-side at bottom left,#271d3b,transparent 900px),radial-gradient(farthest-corner at bottom right,#3a233f,transparent 1000px);
+}
+
+.sticy{
+    position: sticky!important;
+}
+
+.Top{
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.borderbtn{
+color: #FFD512;
+}
